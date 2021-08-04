@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CalculatorService {
+public class CalculatorServiceAdd {
 
    @GetMapping("/add/{x}/{y}")
     public Response add(@PathVariable int x, @PathVariable int y){
