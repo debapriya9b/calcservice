@@ -4,7 +4,6 @@ public class Response {
 
     private int x;
     private int y;
-
     private int result;
 
     public Response(int x, int y, int result) {
